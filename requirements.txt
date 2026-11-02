@@ -1,0 +1,16 @@
+
+# Data analysis
+numpy
+pandas
+matplotlib
+seaborn
+
+# Database connectivity
+psycopg[binary]
+
+# Environment configuration
+python-dotenv
+
+# Jupyter notebooks
+jupyter
+ipykernel

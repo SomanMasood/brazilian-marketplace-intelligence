@@ -1,0 +1,46 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude original raw datasets
+data/raw/*
+
+# Exclude processed datasets by default
+data/processed/*
+
+# Include the nine cleaned core datasets
+!data/processed/customers.csv
+!data/processed/products.csv
+!data/processed/sellers.csv
+!data/processed/category_translation.csv
+!data/processed/orders.csv
+!data/processed/order_items.csv
+!data/processed/payments.csv
+!data/processed/reviews.csv
+!data/processed/geolocation.csv
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
