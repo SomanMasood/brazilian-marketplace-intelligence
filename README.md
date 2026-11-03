@@ -218,7 +218,7 @@ Follow these steps to set up the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/SomanMasood/brazilian-marketplace-intelligence.git
 cd marketplace-intel
 ```
 
